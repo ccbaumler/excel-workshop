@@ -1,0 +1,45 @@
+---
+title: "The Basics to Excel at Excel"
+subtitle: "Emphasis on the maths"
+format: 
+  revealjs:
+    theme: custom.scss
+    preview-links: false
+    incremental: true
+    chalkboard: 
+      buttons: false
+    auto-animate-easing: ease-in-out
+    auto-animate-unmatched: true
+    auto-animate-duration: 0.8
+    menu:
+      side: right
+      width: half
+    mermaid-format: svg
+from: markdown+emoji
+author: 
+  - name: Colton Baumler
+    orcid: 0000-0002-5926-7792
+    email: ccbaumler@ucdavis.edu
+    affiliations: University of California, Davis
+date: last-modified
+date-format: "dddd, [the] D[<sup style='font-size:65%;font-style:italic;'>th</sup>] [of] MMMM, YYYY"
+execute:
+  echo: true
+  warning: false
+editor: 
+  mode: source
+---
+
+# Overview
+
+- Excel functions
+- math and calculations
+- basic graph reading
+
+## Links?
+
+### Appendix
+
+https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca
+
+https://www.w3schools.com/excel/
