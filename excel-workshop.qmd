@@ -324,7 +324,7 @@ What about:
 - Covering arithmetic, stats, logic, strings, dates, etc.
 - `=SUM(A1:A5)` == `=A1+A2+A3+A4+A5`
 
-## Combine everything into a simple example?
+## Combine everything into a simple example? {.scrollable}
 
 ### $C_1\times{}V_1=C_2\times{}V_2$
 
@@ -338,11 +338,6 @@ C3*D3/A3
 
 :::
 
-::: columns
-
-:::: column
-
-<br></br>
 
 $$
 \frac{
@@ -352,15 +347,15 @@ $$
     }
 $$
 
-::::
+::::: {.r-stack}
 
-:::: column
+![](images/excel-challenge.png){.fragment .disappear-fragment}
 
-![](images/excel-challenge.png){.absolute bottom=00 height=600}
+![](images/cvcv.png){.fragment width=900 fig-align='center'}
 
-::::
+:::::
 
-:::
+
 
 # References
 
