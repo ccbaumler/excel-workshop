@@ -597,7 +597,7 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
 <li class="fragment"><code>=SUM(A1:A5)</code> == <code>=A1+A2+A3+A4+A5</code></li>
 </ul>
 </section>
-<section id="combine-everything-into-a-simple-example" class="slide level2">
+<section id="combine-everything-into-a-simple-example" class="slide level2 scrollable">
 <h2>Combine everything into a simple example?</h2>
 <h3 id="c_1timesv_1c_2timesv_2"><span class="math inline">\(C_1\times{}V_1=C_2\times{}V_2\)</span></h3>
 <aside class="notes">
@@ -613,9 +613,6 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<div class="columns">
-<div class="column">
-<p><br><br></p>
 <p><span class="math display">\[
 \frac{
     C_1 V_1
@@ -623,9 +620,14 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
     C_2 V_2
     }
 \]</span></p>
-</div><div class="column">
-<p><img data-src="images/excel-challenge.png" class="absolute" style="bottom: 0px; height: 600px; "></p>
-</div></div>
+<div class="r-stack">
+<p><img data-src="images/excel-challenge.png" class="fragment disappear-fragment"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/cvcv.png" class="fragment quarto-figure quarto-figure-center" width="900"></p>
+</figure>
+</div>
+</div>
 </section></section>
 <section id="references" class="title-slide slide level1 center">
 <h1>References</h1>
@@ -1039,7 +1041,7 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false});
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {
