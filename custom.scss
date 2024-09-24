@@ -485,3 +485,11 @@ $mermaid-label-bg-color: $accent2 !default;
     background-position: 0 0;
   }
 }
+
+/* Hide all fragments after they are no longer the current fragment */
+.disappear-fragment:not(.current-fragment) {
+    display: none;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+}

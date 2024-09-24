@@ -85,7 +85,137 @@ Input new information in selected cell by typing in the cell or the `Formula Bar
 
 ![](images/excel-input.png){fig-align='center'}
 
-## Add moving, deleting, adding and removing undo and redo
+## Moving cells by `Dragging and Dropping`
+
+### Basic Software Usage
+
+::: columns
+
+:::: column
+
+::::: nonincremental
+
+- Highlight a single cell or group of cells
+
+- Hover your cursor over the green border until the cursor changes
+
+- `left click` and `drag` to destination cell
+
+- Release the click on destination cell
+
+:::::
+
+::::
+
+:::: column
+
+::::: {.r-stack}
+
+![](images/excel-drag-drop.png)
+
+![](images/excel-paste.png){.fragment}
+
+
+:::::
+
+::::
+
+:::
+
+
+## Moving cells by `Cutting and Pasting`
+
+### Basic Software Usage
+
+::: columns
+
+:::: column
+
+::::: nonincremental
+
+- Highlight a single cell or group of cells
+
+- `Right click` and select `Cut` (or `ctrl+x`)
+
+- `Right click` the destination cell for the upper left cell (or `arrow keys`)
+
+- Select a command in the **`Paste Options:`**
+
+:::::
+
+::::
+
+:::: column
+
+::::: {.r-stack}
+
+![](images/excel-cut-paste-1.png)
+
+![](images/excel-cut-paste-2.png){.fragment}
+
+![](images/excel-paste.png){.fragment}
+
+:::::
+
+::::
+
+:::
+
+## Deleting entire columns or rows
+
+### Basic Software Usage
+
+::: nonincremental
+
+- Highlight a single column/row or group of columns/rows
+
+- `Right click` and select `Delete`
+
+:::
+
+::: {.r-stack}
+
+![](images/excel-delete-1.png)
+
+![](images/excel-delete-2.png){.fragment .disappear-fragment}
+
+![](images/excel-delete-3.png){.fragment}
+
+:::
+
+## Adding entire columns or rows
+
+### Basic Software Usage
+
+::: nonincremental
+
+- Highlight a single column/row or group of columns/rows
+
+- `Right click` and select `Insert`
+
+:::
+
+::: {.r-stack}
+
+![](images/excel-delete-3.png)
+
+![](images/excel-insert.png){.fragment .disappear-fragment}
+
+![](images/excel-delete-1.png){.fragment}
+
+:::
+
+## Undo and redo can be the most important things to remember!!!
+
+::: nonincremental
+
+- Undo with `ctrl-z` or the reverse arrow
+
+- Redo with `ctrl-y` or the forward arrow
+
+:::
+
+![](images/excel-undo-redo.svg){fig-align='center'}
 
 # Basic arithmetic
 
@@ -97,12 +227,13 @@ Input new information in selected cell by typing in the cell or the `Formula Bar
 
 ### Formulas
 
-formulas start with =
-integers, cells 
-addition, subtraction, multiplication, division
-parentheses = order of operation
+- formulas start with `=`
+- integers, floats/rational, cells 
+- addition (+), subtraction (-), multiplication (*), division (/)
+- parentheses == order of operation
+- `$` pins a column or row identity (i.e. `$A$1`)
 
-## Quickly creating a sequence is simple
+## Quickly creating a uniform sequence
 
 ### Sequences
 
@@ -112,55 +243,36 @@ For a constant sequence,
   - click the lower right green box on the cell
   - drag to the desired sequence length
 
+::: {.r-stack}
+
 ![](images/excel-sequence-1.png){fig-align='center' width=500}
 
-## Quickly creating a sequence is simple
+![](images/excel-sequence-2.png){.fragment fig-align='center' width=500}
 
-### Basic Software Usage
-
-For a constant sequence, 
-
-::: nonincremental
-
-  - input at least one value in a column
-  - click the lower right green box on the cell
-  - drag to the desired sequence length
-  
 :::
 
-![](images/excel-sequence-2.png){fig-align='center' width=500}
+## Quickly creating a linear sequence
 
-## Quickly creating a sequence is simple
-
-### Basic Software Usage
+### Sequences
 
 For a linearly increasing sequence,
 
   - input at least two increasing integers in a column
   - click the lower right green box on the cell
   - drag to the desired sequence length
+
+::: {.r-stack}
 
 ![](images/excel-sequence-3.png){fig-align='center' width=500}
 
-## Quickly creating a sequence is simple
+![](images/excel-sequence-4.png){.fragment fig-align='center' width=500}
 
-### Basic Software Usage
-
-For a linearly increasing sequence,
-
-::: nonincremental
-
-  - input at least two increasing integers in a column
-  - click the lower right green box on the cell
-  - drag to the desired sequence length
-  
 :::
 
-![](images/excel-sequence-4.png){fig-align='center' width=500}
 
-## Quickly creating a sequence is simple
+## Quickly creating a sequence is simple, but...
 
-### Basic Software Usage
+### Sequences
 
 ::: notes
 
@@ -193,6 +305,8 @@ https://superuser.com/questions/897212/fill-cells-with-a-repetitive-pattern-in-e
 
 What about:
 
+::: nonincremental
+
 - A linearly increasing sequence of values greater than 1?
 - A sequence of even integers? 
 - A sequence of odd integers? 
@@ -200,12 +314,63 @@ What about:
 - A nonlinear, exponential sequence?
 - A alternating sequence?
 
-## Links?
+:::
 
-### Appendix
+## Functions can allow you to simplify your formula
 
-https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca
+### Functions
 
-https://www.excel-easy.com/basics.html
+- There are hundreds
+- Covering arithmetic, stats, logic, strings, dates, etc.
+- `=SUM(A1:A5)` == `=A1+A2+A3+A4+A5`
 
-https://www.w3schools.com/excel/
+## Combine everything into a simple example?
+
+### $C_1\times{}V_1=C_2\times{}V_2$
+
+::: {.notes}
+
+F$2
+C2+G$2
+IF(MOD(ROW(),3)=0,15+3,(MOD(ROW(),3)+15))
+C3*D3/A3
+1
+
+:::
+
+::: columns
+
+:::: column
+
+<br></br>
+
+$$
+\frac{
+    C_1 V_1
+    }{
+    C_2 V_2
+    }
+$$
+
+::::
+
+:::: column
+
+![](images/excel-challenge.png){.absolute bottom=00 height=600}
+
+::::
+
+:::
+
+# References
+
+[Microsoft excel basics](https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca)
+
+[Excel Basics](https://www.excel-easy.com/basics.html)
+
+[W3 School Excel Tutorial](https://www.w3schools.com/excel/)
+
+[Microsoft list of functions](https://support.microsoft.com/en-us/office/excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb)
+
+[Excel function cheatsheet](https://www.exceldemy.com/microsoft-excel-formulas-functions-cheat-sheet/)
+
