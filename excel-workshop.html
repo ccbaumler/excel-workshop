@@ -410,9 +410,87 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
 <p>Input new information in selected cell by typing in the cell or the <code>Formula Bar</code></p>
 
 <img data-src="images/excel-input.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="add-moving-deleting-adding-and-removing-undo-and-redo" class="slide level2">
-<h2>Add moving, deleting, adding and removing undo and redo</h2>
-</section></section>
+<section id="moving-cells-by-dragging-and-dropping" class="slide level2">
+<h2>Moving cells by <code>Dragging and Dropping</code></h2>
+<h3 id="basic-software-usage-3">Basic Software Usage</h3>
+<div class="columns">
+<div class="column">
+<div>
+<ul>
+<li><p>Highlight a single cell or group of cells</p></li>
+<li><p>Hover your cursor over the green border until the cursor changes</p></li>
+<li><p><code>left click</code> and <code>drag</code> to destination cell</p></li>
+<li><p>Release the click on destination cell</p></li>
+</ul>
+</div>
+</div><div class="column">
+<div class="r-stack">
+<p><img data-src="images/excel-drag-drop.png"></p>
+<p><img data-src="images/excel-paste.png" class="fragment"></p>
+</div>
+</div></div>
+</section>
+<section id="moving-cells-by-cutting-and-pasting" class="slide level2">
+<h2>Moving cells by <code>Cutting and Pasting</code></h2>
+<h3 id="basic-software-usage-4">Basic Software Usage</h3>
+<div class="columns">
+<div class="column">
+<div>
+<ul>
+<li><p>Highlight a single cell or group of cells</p></li>
+<li><p><code>Right click</code> and select <code>Cut</code> (or <code>ctrl+x</code>)</p></li>
+<li><p><code>Right click</code> the destination cell for the upper left cell (or <code>arrow keys</code>)</p></li>
+<li><p>Select a command in the <strong><code>Paste Options:</code></strong></p></li>
+</ul>
+</div>
+</div><div class="column">
+<div class="r-stack">
+<p><img data-src="images/excel-cut-paste-1.png"></p>
+<p><img data-src="images/excel-cut-paste-2.png" class="fragment"></p>
+<p><img data-src="images/excel-paste.png" class="fragment"></p>
+</div>
+</div></div>
+</section>
+<section id="deleting-entire-columns-or-rows" class="slide level2">
+<h2>Deleting entire columns or rows</h2>
+<h3 id="basic-software-usage-5">Basic Software Usage</h3>
+<div>
+<ul>
+<li><p>Highlight a single column/row or group of columns/rows</p></li>
+<li><p><code>Right click</code> and select <code>Delete</code></p></li>
+</ul>
+</div>
+<div class="r-stack">
+<p><img data-src="images/excel-delete-1.png"></p>
+<p><img data-src="images/excel-delete-2.png" class="fragment disappear-fragment"></p>
+<p><img data-src="images/excel-delete-3.png" class="fragment"></p>
+</div>
+</section>
+<section id="adding-entire-columns-or-rows" class="slide level2">
+<h2>Adding entire columns or rows</h2>
+<h3 id="basic-software-usage-6">Basic Software Usage</h3>
+<div>
+<ul>
+<li><p>Highlight a single column/row or group of columns/rows</p></li>
+<li><p><code>Right click</code> and select <code>Insert</code></p></li>
+</ul>
+</div>
+<div class="r-stack">
+<p><img data-src="images/excel-delete-3.png"></p>
+<p><img data-src="images/excel-insert.png" class="fragment disappear-fragment"></p>
+<p><img data-src="images/excel-delete-1.png" class="fragment"></p>
+</div>
+</section>
+<section id="undo-and-redo-can-be-the-most-important-things-to-remember" class="slide level2">
+<h2>Undo and redo can be the most important things to remember!!!</h2>
+<div>
+<ul>
+<li><p>Undo with <code>ctrl-z</code> or the reverse arrow</p></li>
+<li><p>Redo with <code>ctrl-y</code> or the forward arrow</p></li>
+</ul>
+</div>
+
+<img data-src="images/excel-undo-redo.svg" class="quarto-figure quarto-figure-center r-stretch"></section></section>
 <section>
 <section id="basic-arithmetic" class="title-slide slide level1 center">
 <h1>Basic arithmetic</h1>
@@ -425,10 +503,16 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
 <section id="arithmatic-starts-with-a-formula" class="slide level2">
 <h2>Arithmatic starts with a formula</h2>
 <h3 id="formulas">Formulas</h3>
-<p>formulas start with = integers, cells addition, subtraction, multiplication, division parentheses = order of operation</p>
+<ul>
+<li class="fragment">formulas start with <code>=</code></li>
+<li class="fragment">integers, floats/rational, cells</li>
+<li class="fragment">addition (+), subtraction (-), multiplication (*), division (/)</li>
+<li class="fragment">parentheses == order of operation</li>
+<li class="fragment"><code>$</code> pins a column or row identity (i.e.&nbsp;<code>$A$1</code>)</li>
+</ul>
 </section>
-<section id="quickly-creating-a-sequence-is-simple" class="slide level2">
-<h2>Quickly creating a sequence is simple</h2>
+<section id="quickly-creating-a-uniform-sequence" class="slide level2">
+<h2>Quickly creating a uniform sequence</h2>
 <h3 id="sequences">Sequences</h3>
 <p>For a constant sequence,</p>
 <ul>
@@ -436,48 +520,44 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
 <li class="fragment">click the lower right green box on the cell</li>
 <li class="fragment">drag to the desired sequence length</li>
 </ul>
-
-<img data-src="images/excel-sequence-1.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
-<section id="quickly-creating-a-sequence-is-simple-1" class="slide level2">
-<h2>Quickly creating a sequence is simple</h2>
-<h3 id="basic-software-usage-3">Basic Software Usage</h3>
-<p>For a constant sequence,</p>
-<div>
-<ul>
-<li>input at least one value in a column</li>
-<li>click the lower right green box on the cell</li>
-<li>drag to the desired sequence length</li>
-</ul>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/excel-sequence-1.png" class="quarto-figure quarto-figure-center" width="500"></p>
+</figure>
 </div>
-
-<img data-src="images/excel-sequence-2.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
-<section id="quickly-creating-a-sequence-is-simple-2" class="slide level2">
-<h2>Quickly creating a sequence is simple</h2>
-<h3 id="basic-software-usage-4">Basic Software Usage</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/excel-sequence-2.png" class="fragment quarto-figure quarto-figure-center" width="500"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="quickly-creating-a-linear-sequence" class="slide level2">
+<h2>Quickly creating a linear sequence</h2>
+<h3 id="sequences-1">Sequences</h3>
 <p>For a linearly increasing sequence,</p>
 <ul>
 <li class="fragment">input at least two increasing integers in a column</li>
 <li class="fragment">click the lower right green box on the cell</li>
 <li class="fragment">drag to the desired sequence length</li>
 </ul>
-
-<img data-src="images/excel-sequence-3.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
-<section id="quickly-creating-a-sequence-is-simple-3" class="slide level2">
-<h2>Quickly creating a sequence is simple</h2>
-<h3 id="basic-software-usage-5">Basic Software Usage</h3>
-<p>For a linearly increasing sequence,</p>
-<div>
-<ul>
-<li>input at least two increasing integers in a column</li>
-<li>click the lower right green box on the cell</li>
-<li>drag to the desired sequence length</li>
-</ul>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/excel-sequence-3.png" class="quarto-figure quarto-figure-center" width="500"></p>
+</figure>
 </div>
-
-<img data-src="images/excel-sequence-4.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
-<section id="quickly-creating-a-sequence-is-simple-4" class="slide level2">
-<h2>Quickly creating a sequence is simple</h2>
-<h3 id="basic-software-usage-6">Basic Software Usage</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/excel-sequence-4.png" class="fragment quarto-figure quarto-figure-center" width="500"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="quickly-creating-a-sequence-is-simple-but" class="slide level2">
+<h2>Quickly creating a sequence is simple, but…</h2>
+<h3 id="sequences-2">Sequences</h3>
 <aside class="notes">
 <p>(25,50,…) (2,4,6,…) (1,3,6,…) (10,9,8,…)</p>
 <p>(Advanced requires function or arithmetic )</p>
@@ -497,27 +577,69 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
           display:block!important;
       }</style></aside>
 <p>What about:</p>
+<div>
 <ul>
-<li class="fragment">A linearly increasing sequence of values greater than 1?</li>
-<li class="fragment">A sequence of even integers?</li>
-<li class="fragment">A sequence of odd integers?</li>
-<li class="fragment">A linearly decreasing sequence?</li>
-<li class="fragment">A nonlinear, exponential sequence?</li>
-<li class="fragment">A alternating sequence?</li>
+<li>A linearly increasing sequence of values greater than 1?</li>
+<li>A sequence of even integers?</li>
+<li>A sequence of odd integers?</li>
+<li>A linearly decreasing sequence?</li>
+<li>A nonlinear, exponential sequence?</li>
+<li>A alternating sequence?</li>
+</ul>
+</div>
+</section>
+<section id="functions-can-allow-you-to-simplify-your-formula" class="slide level2">
+<h2>Functions can allow you to simplify your formula</h2>
+<h3 id="functions">Functions</h3>
+<ul>
+<li class="fragment">There are hundreds</li>
+<li class="fragment">Covering arithmetic, stats, logic, strings, dates, etc.</li>
+<li class="fragment"><code>=SUM(A1:A5)</code> == <code>=A1+A2+A3+A4+A5</code></li>
 </ul>
 </section>
-<section id="links" class="slide level2">
-<h2>Links?</h2>
-<h3 id="appendix">Appendix</h3>
-<p>https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca</p>
-<p>https://www.excel-easy.com/basics.html</p>
-<p>https://www.w3schools.com/excel/</p>
+<section id="combine-everything-into-a-simple-example" class="slide level2">
+<h2>Combine everything into a simple example?</h2>
+<h3 id="c_1timesv_1c_2timesv_2"><span class="math inline">\(C_1\times{}V_1=C_2\times{}V_2\)</span></h3>
+<aside class="notes">
+<p>F$2 C2+G$2 IF(MOD(ROW(),3)=0,15+3,(MOD(ROW(),3)+15)) C3*D3/A3 1</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="columns">
+<div class="column">
+<p><br><br></p>
+<p><span class="math display">\[
+\frac{
+    C_1 V_1
+    }{
+    C_2 V_2
+    }
+\]</span></p>
+</div><div class="column">
+<p><img data-src="images/excel-challenge.png" class="absolute" style="bottom: 0px; height: 600px; "></p>
+</div></div>
+</section></section>
+<section id="references" class="title-slide slide level1 center">
+<h1>References</h1>
+<p><a href="https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca">Microsoft excel basics</a></p>
+<p><a href="https://www.excel-easy.com/basics.html">Excel Basics</a></p>
+<p><a href="https://www.w3schools.com/excel/">W3 School Excel Tutorial</a></p>
+<p><a href="https://support.microsoft.com/en-us/office/excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb">Microsoft list of functions</a></p>
+<p><a href="https://www.exceldemy.com/microsoft-excel-formulas-functions-cheat-sheet/">Excel function cheatsheet</a></p>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -917,7 +1039,7 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {
