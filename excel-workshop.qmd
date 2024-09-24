@@ -359,6 +359,10 @@ $$
 
 # References
 
+[Concentrations of Solutions](https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Chemistry_for_Allied_Health_(Soult)/08%3A_Properties_of_Solutions/8.01%3A_Concentrations_of_Solutions)
+
+[Specific Activity wiki](https://en.wikipedia.org/wiki/Specific_activity)
+
 [Microsoft excel basics](https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca)
 
 [Excel Basics](https://www.excel-easy.com/basics.html)
