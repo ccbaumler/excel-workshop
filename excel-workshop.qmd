@@ -32,14 +32,180 @@ editor:
 
 # Overview
 
-- Excel functions
+- Excel software
 - math and calculations
 - basic graph reading
+
+# Excel software
+
+- Basic software usage
+- Basic arithmetic
+- Basic function use
+
+## Excel an "***easy***" entry point to data analysis
+
+### Basic software usage
+
+What is Excel(pronounced "Eks-sel")?
+
+- Excel (and any spreadsheet program) allows for easy entry of data, analysis, and visualization
+
+- This is proprietary software typically provided by your employer or university
+
+To begin, 
+
+- open Excel on your device
+
+- log into [office.com](https://www.office.com){target="_blank"}
+
+## Excel is overwhelming on first use
+
+### Basic software usage
+
+::: notes
+Any new GUI is overwhelming. Take a moment to hover over or click some of the commands to see what they do.
+:::
+
+The `ribbon` is a set of `tabs` that are `groups` of `commands` to provide short cuts to the user.
+
+<br></br>
+<br></br>
+
+The `sheet` is a `named` spreadsheet containing `cells` that allow input, arithmetic, and functions in the `formula bar`.
+
+[![](images/excel-overview.svg){.lightbox}]{.absolute top=250 right=250 width=600}
+
+## Adding some data into the sheets is easy
+
+### Basic Software Usage
+
+Navigate with `tab`, `enter`, `arrow keys`, `left-clicking`, the `Name Box`
+
+Input new information in selected cell by typing in the cell or the `Formula Bar`
+
+![](images/excel-input.png){fig-align='center'}
+
+## Add moving, deleting, adding and removing undo and redo
+
+# Basic arithmetic
+
+- Formulas
+- Sequences
+- Functions
+
+## Arithmatic starts with a formula
+
+### Formulas
+
+formulas start with =
+integers, cells 
+addition, subtraction, multiplication, division
+parentheses = order of operation
+
+## Quickly creating a sequence is simple
+
+### Sequences
+
+For a constant sequence, 
+
+  - input at least one value in a column
+  - click the lower right green box on the cell
+  - drag to the desired sequence length
+
+![](images/excel-sequence-1.png){fig-align='center' width=500}
+
+## Quickly creating a sequence is simple
+
+### Basic Software Usage
+
+For a constant sequence, 
+
+::: nonincremental
+
+  - input at least one value in a column
+  - click the lower right green box on the cell
+  - drag to the desired sequence length
+  
+:::
+
+![](images/excel-sequence-2.png){fig-align='center' width=500}
+
+## Quickly creating a sequence is simple
+
+### Basic Software Usage
+
+For a linearly increasing sequence,
+
+  - input at least two increasing integers in a column
+  - click the lower right green box on the cell
+  - drag to the desired sequence length
+
+![](images/excel-sequence-3.png){fig-align='center' width=500}
+
+## Quickly creating a sequence is simple
+
+### Basic Software Usage
+
+For a linearly increasing sequence,
+
+::: nonincremental
+
+  - input at least two increasing integers in a column
+  - click the lower right green box on the cell
+  - drag to the desired sequence length
+  
+:::
+
+![](images/excel-sequence-4.png){fig-align='center' width=500}
+
+## Quickly creating a sequence is simple
+
+### Basic Software Usage
+
+::: notes
+
+(25,50,...)
+(2,4,6,...)
+(1,3,6,...)
+(10,9,8,...)
+
+(Advanced requires function or arithmetic )
+
+(e.g. 25, 50, 100, 200,...)
+(25, =A1*2)
+
+(e.g. 1,2,..,1,2)
+(1, =A1, =A1+1)
+=IF(MOD(ROW(),2)=0,2,MOD(ROW(),2))
+if the remainder is equal to 0, return the value 2
+    else if the remainder is not equal to 0 return the remainder
+    
+i.e. 2/2=0 (2 divides 2  1 time with no remainder)
+     5/2=2.5 (2 divides 5  2 times with 1 as the remainder)
+         Divide a by b to find the remainder.
+         5 ÷ 2 = 2 R1
+https://superuser.com/questions/897212/fill-cells-with-a-repetitive-pattern-in-excel
+
+=IF(MOD(ROW(),3)=0,3,MOD(ROW(),3)) for (1,2,3,1,2,3,...) because 0R1 0R2 0R0 1R1 1R2 2R0
+
+:::
+
+
+What about:
+
+- A linearly increasing sequence of values greater than 1?
+- A sequence of even integers? 
+- A sequence of odd integers? 
+- A linearly decreasing sequence? 
+- A nonlinear, exponential sequence?
+- A alternating sequence?
 
 ## Links?
 
 ### Appendix
 
 https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca
+
+https://www.excel-easy.com/basics.html
 
 https://www.w3schools.com/excel/
