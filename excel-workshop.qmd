@@ -357,7 +357,7 @@ $$
 
 
 
-# References
+# References {.smaller}
 
 [Concentrations of Solutions](https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Chemistry_for_Allied_Health_(Soult)/08%3A_Properties_of_Solutions/8.01%3A_Concentrations_of_Solutions)
 
