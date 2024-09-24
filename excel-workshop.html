@@ -7,7 +7,10 @@
 <link href="excel-workshop_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="excel-workshop_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="excel-workshop_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="excel-workshop_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="excel-workshop_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="excel-workshop_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="excel-workshop_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="excel-workshop_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Colton Baumler">
@@ -345,21 +348,169 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
     </div>
 </div>
 
-  <p class="date">Wednesday, the 18<sup style="font-size:65%;font-style:italic;">th</sup> of September, 2024</p>
+  <p class="date">Tuesday, the 24<sup style="font-size:65%;font-style:italic;">th</sup> of September, 2024</p>
 </section>
-<section>
 <section id="overview" class="title-slide slide level1 center">
 <h1>Overview</h1>
 <ul>
-<li class="fragment">Excel functions</li>
+<li class="fragment">Excel software</li>
 <li class="fragment">math and calculations</li>
 <li class="fragment">basic graph reading</li>
+</ul>
+</section>
+
+<section>
+<section id="excel-software" class="title-slide slide level1 center">
+<h1>Excel software</h1>
+<ul>
+<li class="fragment">Basic software usage</li>
+<li class="fragment">Basic arithmetic</li>
+<li class="fragment">Basic function use</li>
+</ul>
+</section>
+<section id="excel-an-easy-entry-point-to-data-analysis" class="slide level2">
+<h2>Excel an “<strong><em>easy</em></strong>” entry point to data analysis</h2>
+<h3 id="basic-software-usage">Basic software usage</h3>
+<p>What is Excel(pronounced “Eks-sel”)?</p>
+<ul>
+<li class="fragment"><p>Excel (and any spreadsheet program) allows for easy entry of data, analysis, and visualization</p></li>
+<li class="fragment"><p>This is proprietary software typically provided by your employer or university</p></li>
+</ul>
+<p>To begin,</p>
+<ul>
+<li class="fragment"><p>open Excel on your device</p></li>
+<li class="fragment"><p>log into <a href="https://www.office.com" target="_blank">office.com</a></p></li>
+</ul>
+</section>
+<section id="excel-is-overwhelming-on-first-use" class="slide level2">
+<h2>Excel is overwhelming on first use</h2>
+<h3 id="basic-software-usage-1">Basic software usage</h3>
+<aside class="notes">
+<p>Any new GUI is overwhelming. Take a moment to hover over or click some of the commands to see what they do.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<p>The <code>ribbon</code> is a set of <code>tabs</code> that are <code>groups</code> of <code>commands</code> to provide short cuts to the user.</p>
+<p><br><br> <br><br></p>
+<p>The <code>sheet</code> is a <code>named</code> spreadsheet containing <code>cells</code> that allow input, arithmetic, and functions in the <code>formula bar</code>.</p>
+<p><span class="absolute" style="top: 250px; right: 250px; width: 600px; "><a href="images/excel-overview.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="images/excel-overview.svg"></a></span></p>
+</section>
+<section id="adding-some-data-into-the-sheets-is-easy" class="slide level2">
+<h2>Adding some data into the sheets is easy</h2>
+<h3 id="basic-software-usage-2">Basic Software Usage</h3>
+<p>Navigate with <code>tab</code>, <code>enter</code>, <code>arrow keys</code>, <code>left-clicking</code>, the <code>Name Box</code></p>
+<p>Input new information in selected cell by typing in the cell or the <code>Formula Bar</code></p>
+
+<img data-src="images/excel-input.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="add-moving-deleting-adding-and-removing-undo-and-redo" class="slide level2">
+<h2>Add moving, deleting, adding and removing undo and redo</h2>
+</section></section>
+<section>
+<section id="basic-arithmetic" class="title-slide slide level1 center">
+<h1>Basic arithmetic</h1>
+<ul>
+<li class="fragment">Formulas</li>
+<li class="fragment">Sequences</li>
+<li class="fragment">Functions</li>
+</ul>
+</section>
+<section id="arithmatic-starts-with-a-formula" class="slide level2">
+<h2>Arithmatic starts with a formula</h2>
+<h3 id="formulas">Formulas</h3>
+<p>formulas start with = integers, cells addition, subtraction, multiplication, division parentheses = order of operation</p>
+</section>
+<section id="quickly-creating-a-sequence-is-simple" class="slide level2">
+<h2>Quickly creating a sequence is simple</h2>
+<h3 id="sequences">Sequences</h3>
+<p>For a constant sequence,</p>
+<ul>
+<li class="fragment">input at least one value in a column</li>
+<li class="fragment">click the lower right green box on the cell</li>
+<li class="fragment">drag to the desired sequence length</li>
+</ul>
+
+<img data-src="images/excel-sequence-1.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
+<section id="quickly-creating-a-sequence-is-simple-1" class="slide level2">
+<h2>Quickly creating a sequence is simple</h2>
+<h3 id="basic-software-usage-3">Basic Software Usage</h3>
+<p>For a constant sequence,</p>
+<div>
+<ul>
+<li>input at least one value in a column</li>
+<li>click the lower right green box on the cell</li>
+<li>drag to the desired sequence length</li>
+</ul>
+</div>
+
+<img data-src="images/excel-sequence-2.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
+<section id="quickly-creating-a-sequence-is-simple-2" class="slide level2">
+<h2>Quickly creating a sequence is simple</h2>
+<h3 id="basic-software-usage-4">Basic Software Usage</h3>
+<p>For a linearly increasing sequence,</p>
+<ul>
+<li class="fragment">input at least two increasing integers in a column</li>
+<li class="fragment">click the lower right green box on the cell</li>
+<li class="fragment">drag to the desired sequence length</li>
+</ul>
+
+<img data-src="images/excel-sequence-3.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
+<section id="quickly-creating-a-sequence-is-simple-3" class="slide level2">
+<h2>Quickly creating a sequence is simple</h2>
+<h3 id="basic-software-usage-5">Basic Software Usage</h3>
+<p>For a linearly increasing sequence,</p>
+<div>
+<ul>
+<li>input at least two increasing integers in a column</li>
+<li>click the lower right green box on the cell</li>
+<li>drag to the desired sequence length</li>
+</ul>
+</div>
+
+<img data-src="images/excel-sequence-4.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
+<section id="quickly-creating-a-sequence-is-simple-4" class="slide level2">
+<h2>Quickly creating a sequence is simple</h2>
+<h3 id="basic-software-usage-6">Basic Software Usage</h3>
+<aside class="notes">
+<p>(25,50,…) (2,4,6,…) (1,3,6,…) (10,9,8,…)</p>
+<p>(Advanced requires function or arithmetic )</p>
+<p>(e.g.&nbsp;25, 50, 100, 200,…) (25, =A1*2)</p>
+<p>(e.g.&nbsp;1,2,..,1,2) (1, =A1, =A1+1) =IF(MOD(ROW(),2)=0,2,MOD(ROW(),2)) if the remainder is equal to 0, return the value 2 else if the remainder is not equal to 0 return the remainder</p>
+<p>i.e.&nbsp;2/2=0 (2 divides 2 1 time with no remainder) 5/2=2.5 (2 divides 5 2 times with 1 as the remainder) Divide a by b to find the remainder. 5 ÷ 2 = 2 R1 https://superuser.com/questions/897212/fill-cells-with-a-repetitive-pattern-in-excel</p>
+<p>=IF(MOD(ROW(),3)=0,3,MOD(ROW(),3)) for (1,2,3,1,2,3,…) because 0R1 0R2 0R0 1R1 1R2 2R0</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<p>What about:</p>
+<ul>
+<li class="fragment">A linearly increasing sequence of values greater than 1?</li>
+<li class="fragment">A sequence of even integers?</li>
+<li class="fragment">A sequence of odd integers?</li>
+<li class="fragment">A linearly decreasing sequence?</li>
+<li class="fragment">A nonlinear, exponential sequence?</li>
+<li class="fragment">A alternating sequence?</li>
 </ul>
 </section>
 <section id="links" class="slide level2">
 <h2>Links?</h2>
 <h3 id="appendix">Appendix</h3>
 <p>https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca</p>
+<p>https://www.excel-easy.com/basics.html</p>
 <p>https://www.w3schools.com/excel/</p>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -766,6 +917,38 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
       }
     });
     </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>
