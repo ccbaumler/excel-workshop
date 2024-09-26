@@ -316,6 +316,140 @@ What about:
 
 :::
 
+## Graphing ***linear*** sequences
+
+### Sequences and Graphing
+
+![](images/excel-linear-seq.png){.absolute left=0 bottom=0 width=350}
+
+::: {.absolute right=70 bottom=0 width=550}
+
+<span class="hovertext" data-hover="">
+    <img src="images/excel-linear-seq-highlight.png">
+    <span class="tooltip-content">
+        `Select data cells` > `Insert` Tab > `Charts` Group > Select the `dropdown for the specific chart` type
+    </span>
+</span>
+
+:::
+
+![](images/excel-linear-seq-graph.png){.fragment width=900}
+
+## Adding and editing graph chart elements
+
+### Sequences and Graphing
+
+::: {.r-stack}
+
+:::: {layout-nrow=2}
+
+![](images/excel-chart-elements-group.png){fig-align='center' width=700}
+
+![](images/excel-chart-elements-popup.png){fig-align='center'}
+
+::::
+
+![](images/excel-chart-element-edit.png){.fragment fig-align='center' width=800}
+
+:::
+
+## Adding trendline, equation, and $R^2$
+
+### Sequences and Graphing
+
+::: columns
+
+:::: column
+
+::::: nonincremental
+
+:::::: {.hovertext data-hover="If a trendline is already present on the graph, simply click on the trendline visual on the graph"}
+
+- Click `trendline` in either chart elements popup or group
+
+::::::
+
+  - Click `More options` or `More Trendline Options`
+  
+  - Click on `Linear`, `Line equation`, and $`R^2`$ value
+
+:::::
+
+::::
+
+:::: column
+
+
+::::: {.r-stack}
+
+![](images/excel-chart-element-trendline.png){height=600}
+
+![](images/excel-chart-element-equations.png){.fragment height=600}
+
+:::::
+
+::::
+
+:::
+
+## Complete ***linear*** sequence graph
+
+### Sequences and Graphing
+
+::: {.hovertext data-hover="Find the X-intercept and Y-intercept"}
+
+:::: {.r-stack}
+
+![](images/excel-linear-seq-graph-complete.png){fig-align='center' width=900}
+
+![](images/excel-linear-seq-graph-complete-trendline.png){.fragment fig-align='center' width=900}
+
+::::
+
+:::
+
+## Graphing ***quadratic*** sequences
+
+### Sequences and Graphing
+
+::: {.r-stack}
+
+![](images/excel-quadratic-seq.png){width=350}
+
+![](images/excel-quadratic-seq-graph-complete.png){.fragment fig-align='center' width=900}
+
+:::
+
+## Graphing ***an actual*** sequences
+
+### Sequences and Graphing
+
+::: {.r-stack}
+
+![](images/excel-actual-seq.png){width=350}
+
+![](images/excel-actual-seq-graph-complete.png){.fragment fig-align='center' width=900}
+
+:::
+
+## Graphing ***random*** sequences
+
+### Sequences and Graphing
+
+::: notes
+
+=RANDARRAY(10, 1, 1, 18, TRUE)
+
+:::
+
+::: {.r-stack}
+
+![](images/excel-random-seq.png){width=350}
+
+![](images/excel-random-seq-graph-complete.png){.fragment fig-align='center' width=900}
+
+:::
+
 ## Functions can allow you to simplify your formula
 
 ### Functions
@@ -354,8 +488,6 @@ $$
 ![](images/cvcv.png){.fragment width=900 fig-align='center'}
 
 :::::
-
-
 
 # References {.smaller}
 
