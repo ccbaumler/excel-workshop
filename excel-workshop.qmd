@@ -396,6 +396,23 @@ What about:
 
 ### Sequences and Graphing
 
+::: notes
+
+if $(x,y)$
+
+x-intercept: set $y=0$ 
+y-intercept: set $x=0$
+
+$$
+y=mx+b
+$$
+
+$$
+m=\frac{y_1 y_2}{x_1 x_2}
+$$
+
+:::
+
 ::: {.hovertext data-hover="Find the X-intercept and Y-intercept"}
 
 :::: {.r-stack}
