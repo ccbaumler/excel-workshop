@@ -32,9 +32,13 @@ editor:
 
 # To use this presentation
 
+::: nonincremental
+
 - Press `?` for presentation options
 - Open the menu in the upper right
 - Use arrow keys to navigate easily
+
+:::
 
 # Overview
 
