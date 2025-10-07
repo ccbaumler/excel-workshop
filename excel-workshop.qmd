@@ -30,6 +30,12 @@ editor:
   mode: source
 ---
 
+# To use this presentation
+
+- Press `?` for presentation options
+- Open the menu in the upper right
+- Use arrow keys to navigate easily
+
 # Overview
 
 - Excel software
@@ -54,7 +60,7 @@ What is Excel(pronounced "Eks-sel")?
 
 To begin, 
 
-- open Excel on your device
+- open Excel on your device (This course **REQUIRES** a downloaded application of Excel)
 
 - log into [office.com](https://www.office.com){target="_blank"}
 
@@ -183,7 +189,7 @@ Input new information in selected cell by typing in the cell or the `Formula Bar
 
 :::
 
-## Adding entire columns or rows
+## Inserting entire columns or rows
 
 ### Basic Software Usage
 
@@ -202,6 +208,26 @@ Input new information in selected cell by typing in the cell or the `Formula Bar
 ![](images/excel-insert.png){.fragment .disappear-fragment}
 
 ![](images/excel-delete-1.png){.fragment}
+
+:::
+
+## Transposing selections
+
+### Basic Software Usage
+
+::: nonincremental
+
+- Highlight a set of values (a column, row, or matrix)
+
+:::
+
+::: {.r-stack}
+
+![](images/excel-transpose-1.png)
+
+![](images/excel-transpose-2.png){.fragment .disappear-fragment}
+
+![](images/excel-transpose-3.png){.fragment}
 
 :::
 
