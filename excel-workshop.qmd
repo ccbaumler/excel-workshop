@@ -342,7 +342,7 @@ What about:
 - A sequence of odd integers? 
 - A linearly decreasing sequence? 
 - A nonlinear, exponential sequence?
-- A alternating sequence?
+- An alternating sequence?
 
 :::
 
